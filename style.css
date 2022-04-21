@@ -1,0 +1,33 @@
+.container-fluid {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card-footer {
+    font-weight: bold;
+    color: white !important;
+    background-color: grey;
+    text-align: center;
+}
+
+.form-group {
+    flex: 30%;
+    margin: 0 10px;
+}
+
+.card-body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; 
+}
+
+.form-control::placeholder {
+    color: red;
+}
+
